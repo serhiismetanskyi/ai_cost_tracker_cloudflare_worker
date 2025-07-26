@@ -1,0 +1,10 @@
+name = "ai-cost-tracker-agent"
+main = "index.js"
+compatibility_date = "2025-07-26"
+
+[observability.logs]
+enabled = true
+
+[[kv_namespaces]]
+binding = "SECRET_STORE"
+id = "d1ca7e51de9840a1a7d1a30f4be23dab"
